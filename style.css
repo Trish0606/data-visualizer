@@ -1,0 +1,23 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.dashboard-container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.chart-wrapper {
+    margin-top: 30px;
+    position: relative;
+    height: 40vh; /* Keeps it responsive */
+}
